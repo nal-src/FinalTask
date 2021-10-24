@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test">
+    <test name="Api Test">
+        <classes>
+            <class name="api.SignInTest"/>
+            <class name="api.SignUpTest"/>
+            <class name="api.UserTest"/>
+            <class name="api.JobTest"/>
+            <class name="api.CommentTest"/>
+            <class name="api.ImageTest"/>
+        </classes>
+    </test>
+    <test name="UI Test">
+        <classes>
+            <class name="ui.LoginTest"/>
+            <class name="ui.RegisterTest"/>
+            <class name="ui.UI_1_Test"/>
+            <class name="ui.UI_2_Test"/>
+            <class name="ui.UI_3_Test"/>
+            <class name="ui.UI_4_Test"/>
+        </classes>
+    </test>
+</suite>
